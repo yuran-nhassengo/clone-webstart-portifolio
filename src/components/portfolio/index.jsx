@@ -13,7 +13,14 @@ export const Portifolio = () => {
                     relative  before:absolute before:opacity-40
                     before:-top-[2rem] before:-left-3/4
                     before:hidden before:lg:block">My latest work</h2>
+                    <p className="subtitle">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                        </p>
                 </div>
+                <Projects/>
             </div>
     </section>
   )
