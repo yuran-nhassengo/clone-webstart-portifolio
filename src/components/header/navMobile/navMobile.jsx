@@ -52,6 +52,17 @@ export const NavMobile = () => {
 
         </motion.div>
 
+        <motion.ul variants={ulVariants} initial="hidden" animate ={isOpen ? "visible" : ""}
+        className={`${isOpen ? "right-0" : "-right-full"} 
+        fixed top-0 bottom-0 w-full flex flex-col items-center
+        transition-all duration-300 overflow-hidden`}>
+
+        <div onClick={() => setIsOpen(false)} className="cursor-pointer absolute top-8 right-8"> 
+            <XMarkIcon className="w-8 h-8"/>
+        </div>
+
+        </motion.ul>
+
     </nav>
   )
 }
