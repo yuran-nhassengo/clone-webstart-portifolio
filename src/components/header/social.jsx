@@ -1,10 +1,11 @@
 import React from 'react'
 
-export const Nav = () => {
+export const Social = () => {
   return (
     <div>
-      Nav
+      Social
     </div>
   )
 }
+
 
