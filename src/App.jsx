@@ -4,6 +4,7 @@ import { About } from './components/about'
 import { Brands } from './components/brands/brands'
 import { Header } from './components/header'
 import { Hero } from './components/hero/hero'
+import { Portifolio } from './components/portfolio'
 import { Skills } from './components/skills'
 
 
@@ -18,6 +19,7 @@ function App() {
    <Brands/>
    <About/>
    <Skills/>
+   <Portifolio/>
    <div style={{height: '2000px'}}></div>
     </>
   )
