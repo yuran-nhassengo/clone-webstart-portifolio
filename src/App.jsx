@@ -1,13 +1,13 @@
 
 import './App.css'
+import { Header } from './components/header'
 
 function App() {
   
 
   return (
     <>
-      <p className="text-primary">App</p>
-      {console.log("cheguei")}
+   <Header/>
     </>
   )
 }
