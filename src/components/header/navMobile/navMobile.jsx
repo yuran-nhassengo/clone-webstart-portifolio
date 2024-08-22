@@ -6,6 +6,7 @@ import { XMarkIcon } from '@heroicons/react/16/solid';
 import { Bars3BottomLeftIcon } from '@heroicons/react/16/solid';
 
 import { motion } from 'framer-motion';
+import { Link } from 'react-scroll';
 
 
 export const NavMobile = () => {
@@ -60,6 +61,16 @@ export const NavMobile = () => {
         <div onClick={() => setIsOpen(false)} className="cursor-pointer absolute top-8 right-8"> 
             <XMarkIcon className="w-8 h-8"/>
         </div>
+
+            {navigation.map((item,index) => {
+                return <li key={index} className="mt-16">
+                    <Link to={item.href} smooth={true}
+                    duration={500} offset={-70} 
+                    className="text-xl cursor-pointer 
+                    capitalize"
+                    >{item.name}</Link>
+                </li>
+            })}
 
         </motion.ul>
 
