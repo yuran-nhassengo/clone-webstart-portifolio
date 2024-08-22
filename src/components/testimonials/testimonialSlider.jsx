@@ -1,12 +1,9 @@
 import React from 'react'
 
-
-
-
-export const Testimonial = () => {
+export const TestimonialSlider = () => {
   return (
     <div>
-      Testimonial
+      Testimonial Slidr
     </div>
   )
 }
