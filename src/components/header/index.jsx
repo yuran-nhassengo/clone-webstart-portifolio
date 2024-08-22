@@ -29,7 +29,7 @@ export const Header = () => {
             <div className="hidden lg:block">
                 <Social/>
             </div>
-            <div className="hidden lg:block">
+            <div className=" lg:hidden">
                 <NavMobile/>
             </div>
         </div>
