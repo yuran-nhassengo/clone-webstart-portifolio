@@ -7,7 +7,6 @@ import { Hero } from './components/hero/hero'
 import { Portifolio } from './components/portfolio'
 import { Services } from './components/services'
 import { Skills } from './components/skills'
-import { Testimonial } from './components/testimonials/testimonial'
 
 
 
@@ -23,7 +22,7 @@ function App() {
    <Skills/>
    <Portifolio/>
    <Services/>
-   <Testimonial/>
+  
    {/* <div style={{height: '2000px'}}></div> */}
     </>
   )
